@@ -1,0 +1,15 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.graph .title {
+  color: white;
+}
