@@ -1,10 +1,10 @@
 (ns api.socket
   (:require
-    [clojure.core.async :as async]
-    [clojure.java.io :as io]
-    [api.common :as common]
-    [sockets.datagram.packet :as packet]
-    [sockets.datagram.socket :as socket]))
+   [clojure.core.async :as async]
+   [clojure.java.io :as io]
+   [api.common :as common]
+   [sockets.datagram.packet :as packet]
+   [sockets.datagram.socket :as socket]))
 
 (defn echo-service
   "For any in-coming message, simply return the same data."
