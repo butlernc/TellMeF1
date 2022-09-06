@@ -7,7 +7,7 @@
    [clojure.core.async :as async]))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Run port listening"
   [& [port & args]]
   (println "Starting server ...")
   (let [sock (dSocket/create (common/get-port port))]
