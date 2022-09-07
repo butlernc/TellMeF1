@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@racehub-io/f1-telemetry-client": "^0.2.8",
+    "f1-22-udp": "^2.1.1",
+    "socket.io": "^4.5.2"
+  },
+  "name": "transmat",
+  "version": "1.0.0",
+  "description": "Routes F1 22 data to port on 3456",
+  "main": "transmat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node transmat.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

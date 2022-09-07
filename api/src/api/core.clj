@@ -18,5 +18,7 @@
       (socket/echo-service
        (socket/packet-reader sock)
        (socket/echo-writer sock)))
-    (.join (Thread/currentThread))))
+    (.join (Thread/currentThread))
+  )
+)
 
